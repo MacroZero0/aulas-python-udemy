@@ -1,10 +1,13 @@
 # if / elif      / else
 # se / se não se / se não
 
-condicao1 = False
-condicao2 = False
+# usando o debuger com python e breakpoint
+# settings.json > gliph = para mostrar o ponto vermelho do lado da linha de codigo
+
+condicao1 = True    #marcando o breakpoint nessa linha esta condição não sera carregada
+condicao2 = True
 condicao3 = True
-condicao4 = False
+condicao4 = True
 
 if condicao1:
     print('Código para condição 1') # condição falsa então não será executado
